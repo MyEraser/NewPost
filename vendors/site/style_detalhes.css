@@ -1,0 +1,16 @@
+/* formata os detalhes do produto após clicar em visualizar em alguma das tabelas de produto */
+
+.detalhesFotoProduto{
+border-style:solid !important;
+color: black ;
+border-radius:10px !important;
+}
+
+.txt{
+  font-size:14px;
+  padding-left:10%;
+  border-bottom-color:lightblue;
+  border-bottom-style:solid;
+  border-width: 1px;
+  
+}

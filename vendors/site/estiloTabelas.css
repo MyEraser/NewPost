@@ -1,0 +1,38 @@
+img{
+  height: 5%;
+  text-align:center;
+}
+
+td{
+  text-align:center;
+  
+  
+}
+
+th{
+  text-align: center;
+  background-color:blue;
+  color:white;
+}
+
+tr:hover{
+  transition:0.5s;
+  background-color: #2427FF;
+  color: white;
+  
+} 
+
+i:hover{
+  transition:0.5s;
+  background-color: blue;
+  color: white;
+}
+
+table{
+  width: 70%;
+  overflow-x:auto;
+}
+
+.container{
+  width:90%;
+}

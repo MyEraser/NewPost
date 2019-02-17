@@ -1,0 +1,189 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  border-top: azure;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  margin: -21px;
+  border-style: none;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/*==================================================format login window*/
+
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('http://localhost/enderecos/vendors/images/newpost_logo.png');
+/*background-size: cover;*/
+background-repeat: repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+/*height: 100%;*/
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: black;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.index{
+  z-index: -1;
+}
+
+
+.direta{
+  left:500px;
+}
+
+.spacer{
+  padding:50px;
+}
+/*---------------------------------------------------------------------------------*/
+
+.tabelaLocais{
+  background-color: black;
+  color:gray;
+}
+
+@media (min-width: 992px)
+.col-md-6 {
+    width: 27% !important;
+}
+
+.map{
+  padding:10px;
+}
+
+.table-title{
+  background-color: White;
+  font-family: fantasy;
+  font-style: italic;
+  size: 40px;
+  padding: 20px;
+}
+
+/*Estruturando tabelas em design resposivo*/
+
+  .table-wrapper-scroll-y {
+display: block;
+max-height: 50%;
+overflow-y: auto;
+-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.tabelaPedidos{
+  width: 100%;
+}
